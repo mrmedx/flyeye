@@ -43,7 +43,7 @@ def detect_digital_flies_said(search_results, keyword):
             #msg = str(freq)+keyword+"detected " + search_result["link"]
             #print_red(msg)
             freq = record_keyword_freq(sresult["snippet"],keyword)
-            msg = str(freq)+" digital flies detected in " + sresult["link"]+" snippet."
+            msg = str(freq)+" digital flies detected on " + sresult["link"]+" snippet."
             print_red(msg)
 
         gmsg ="Looking inside " + sresult["link"]+" ..."
@@ -51,7 +51,7 @@ def detect_digital_flies_said(search_results, keyword):
         print_green(gmsg)
         src=get_html_src(sresult["link"])
         freq= record_keyword_freq(src,keyword)
-        rmsg = str(freq) +" digital flies detected in " + sresult["link"]
+        rmsg = str(freq) +" digital flies detected on " + sresult["link"]
         print_red(rmsg)
         
     #get the freq if it not None, else freq_val will be 0.
