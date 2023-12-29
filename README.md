@@ -1,7 +1,7 @@
 # FlyEye
 
 <p align="center">
-  <img width="250" height="250" src="https://github.com/mrmedx/flyeye/blob/main/icon/icon.jpg" alt='FlyEye'>
+  <img width="250" height="250" src="https://github.com/mrmedx/flyeye/blob/main/img/icon.jpg" alt='FlyEye'>
 </p>
 
 <p align="center">
@@ -219,6 +219,13 @@ access_token:
   Example: python flyeye.py who leaked access_token on example.com
 
 ```
+
+
+## How it works
+
+<p align="center">
+  <img width="250" height="250" src="https://github.com/mrmedx/flyeye/blob/main/img/flow.png" alt='FlyEye'>
+</p>
 
 
 This README will be regularly updated with additional documentation for users or developers. For any inquiries or assistance, please reach out via the provided email.
