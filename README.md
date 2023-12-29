@@ -7,7 +7,7 @@
 <p align="center">
   ⚠️ **We disclaim responsibility for any illegal activities. Users are advised to adhere to applicable laws and use the tool responsibly.**
   
-FlyEye® is an open source web forensics framework for web investigation and detecting data leaks using simple queries like:"who said "download this" on <WEBSITE> after 2023-12-27 in <COUNTRY>" or "who leaked access_token on <WEBSITE> after 2023-01-01", users can retrieve and analyze all the matched results from example.com in the USA after the specified date, and gather valuable information, or monitor web traffic from one website to another, finding a group commenting about a specific topic in a certain place and time, FlyEye used also for web security to protect your website by identifying and addressing potential sensitive information leakage, for more information how to use FlyEye for Web Forensics check out the documentation below. 
+FlyEye® is an open source web forensics framework for web investigation and detecting data leaks using simple queries like:"who said "download this" on example.com after 2023-12-27 in us" or "who leaked access_token on api.example.com after 2023-01-01", users can retrieve and analyze all the matched results from example.com in the USA after the specified date, and gather valuable information, or monitor web traffic from one website to another, finding a group commenting about a specific topic in a certain place and time, FlyEye used also for web security to protect your website by identifying and addressing potential sensitive information leakage, for more information how to use FlyEye for Web Forensics check out the documentation below. 
 
 
 </p>
