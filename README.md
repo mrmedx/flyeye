@@ -1,7 +1,7 @@
 # FlyEye
 
 <p align="center">
-  <img width="250" height="250" src="https://raw.githubusercontent.com/mrmedx/nodevisit/main/logo.jpg" alt='FlyEye'>
+  <img width="250" height="250" src="https://github.com/mrmedx/flyeye/blob/main/icon/icon.jpg" alt='FlyEye'>
 </p>
 
 <p align="center">
@@ -215,5 +215,3 @@ access_token:
 
 This README will be regularly updated with additional documentation for users or developers. For any inquiries or assistance, please reach out via the provided email.
 
-
-[![Video](https://img.youtube.com/vi/y0iPyxEPrV4/0.jpg)](https://www.youtube.com/watch?v=y0iPyxEPrV4)
