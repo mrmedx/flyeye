@@ -1,6 +1,6 @@
 from google.dork.params import *
 #ParameterFactory=================================================
-#build obkect based on the param
+#build objects based on the param
 class ParameterFactory:
     def __init__(self, dork):
         self.dork=dork
