@@ -26,9 +26,10 @@ users can retrieve and analyze all the matched results from example.com in the U
 
 ## Requirements
 
-The requests python library:
+requests, bs4:
 
 - [requests](https://pypi.org/project/requests/)
+- [bs4](https://pypi.org/project/beautifulsoup4/)
 
 Install the requirements:
 

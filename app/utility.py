@@ -191,9 +191,13 @@ def app(argv):
             query_results = get_query_results([dork])
             save_as_json(query_results,dork["sp"])#save the @query_results into @dork["sp"] save path.
 
+#@function converts argv to lower case:
+def argv_to_lower(argv):
+    return [arg.lower() for arg in argv]
+
 #function to start flyeye app           
 def launch_flyeye(argv):
     try:
-        app(argv)
+        app(argv_to_lower(argv))
     except Exception as why:
         log("flyeye unexpected termination. : " + str(why))
