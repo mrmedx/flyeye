@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  ⚠️ **We disclaim responsibility for any illegal activities. Users are advised to adhere to applicable laws and use the flyeye responsibly.**
+  ⚠️ **We disclaim responsibility for any illegal activities. Users are advised to adhere to applicable laws.**
   
 FlyEye® is an open source web forensics framework for web investigation and detecting data leaks using simple queries like:
 ```bash
