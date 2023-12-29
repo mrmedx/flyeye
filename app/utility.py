@@ -166,7 +166,6 @@ def flyeye_laod(argv):
     if not dork:
         return
     if len(dork)>0:
-        print(dork)
         from google.data.analysis import analyse_from_local_file
         analyse_from_local_file(wf_results,dork)
 
@@ -188,7 +187,6 @@ def app(argv):
         if not dork:
             return
         if len(dork)>0:
-            print(dork)
             from google.search.query import get_query_results
             query_results = get_query_results([dork])
             save_as_json(query_results,dork["sp"])#save the @query_results into @dork["sp"] save path.
