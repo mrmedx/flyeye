@@ -89,6 +89,8 @@ def detect_said_flies(titles_and_links_list,kwds_list):
         return
     from google.data.analysis import detect_digital_flies_said
     for target_keyword in kwds_list:
+        if len(target_keyword)==0:
+            continue
         log("detect digital flies talking about: "+target_keyword+"...")
         detect_digital_flies_said(titles_and_links_list, target_keyword)
 

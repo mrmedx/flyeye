@@ -6,8 +6,6 @@ VERSION_COMMANDS=["version", "-v", "--v"]
 #@wf parameters:
 WHO="who"
 SAID="said"
-FACEBOOK="facebook"
-INSTAGRAM="instagram"
 FLY="fly"
 FROM="from"
 TO="to"
@@ -29,6 +27,12 @@ ACCESS_TOKEN="access_token"
 SAVE_TO="saveto"
 LOAD="load"
 KEYWORDS=[LOAD,SAVE_TO,ACCESS_TOKEN,PHONE_NUMBER,EMAIL,LEAKED,EXACT, SITE,COUNTRY,ANY,NOT, OR, AND, AFTER,BEFORE,IN,ON,TO,FROM,FLY, SAID,WHO]
+
+#@FACEBOOK
+FACEBOOK="facebook"
+#@INSTAGRAM
+INSTAGRAM="instagram"
+
 #@error msg
 INVALD_COUNTRY_CODE="Invalid Coutry code: "
 COUNTRY_CODE_EXAMPLE=", Coutry code example:us,US"
@@ -130,9 +134,29 @@ HELP_MENU={
                 'description': 'load a flyeye saved results and perform a task',
                 'example': 'python flyeye.py load results.json who said exact "download this file"'
         },
-        str(HELP_COMMANDS): {
+        HELP_COMMANDS[0]: {
                 'description': 'show this help menu.',
-                'example': 'python flyeye.py help"'
+                'example': 'python flyeye.py help'
         },
+        HELP_COMMANDS[1]: {
+                'description': 'show this help menu.',
+                'example': 'python flyeye.py help'
+        },
+        HELP_COMMANDS[2]: {
+                'description': 'show this help menu.',
+                'example': 'python flyeye.py help'
+        },
+        VERSION_COMMANDS[0]: {
+                'description': 'show the current flyeye version.',
+                'example': 'python flyeye.py version'
+        },
+         VERSION_COMMANDS[1]: {
+                'description': 'show the current flyeye version.',
+                'example': 'python flyeye.py version'
+        },
+         VERSION_COMMANDS[2]: {
+                'description': 'show the current flyeye version.',
+                'example': 'python flyeye.py version'
+        }
 }
 #@HELP_MENU end.

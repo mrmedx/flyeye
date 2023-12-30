@@ -702,6 +702,9 @@ class Exact(Parameter):
     def fire_after_add(self):
         #close the "\""   
         self.dork.append_text("\" ")
+        if self.value:
+            if len(self.value)>0:
+                self.dork.add_target_keyword(self.value)
 
 
 
