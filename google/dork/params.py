@@ -1054,6 +1054,16 @@ class On(Parameter):
                     self.value=""
                     self.dork.text='inurl:"*access_token=" AND inurl:"*graph.instagram.com" site:*.instagram.com '
                     #inurl:"*access_token=" site:graph.instagram.com
+                elif FACEBOOK in self.value and prev_param.value.text==EMAIL:
+                    self.translate_text=""
+                    self.value=""
+                    self.dork.text='inurl:"*n_m=" OR inurl:"*medium=email" AND inurl:"*facebook.com/" '
+                    #inurl:"*access_token=" site:graph.instagram.com
+                elif FACEBOOK in self.value and prev_param.value.text==PHONE_NUMBER:
+                    self.translate_text=""
+                    self.value=""
+                    self.dork.text='inurl:"*n_m=" OR inurl:"*medium=email" OR inurl:"medium=sms" AND inurl:"*facebook.com/" '
+                    #inurl:"*access_token=" site:graph.instagram.com
                 else:
                     self.dork.text+="OR "
         except:
