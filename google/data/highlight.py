@@ -81,7 +81,8 @@ def detect_this_keyword(text:str, keyword):
 #@function
 def detect_phone_numbers(text:str):
     #phone_pattern = r'\b(?:\+?\d{1,3}[-.●]?)?\(?\d{1,4}\)?[-.●]?\d{1,4}[-.●]?\d{1,9}\b'
-    phone_pattern="^\\+?\\d{1,4}?[-.\\s]?\\(?\\d{1,3}?\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,9}$"
+    #phone_pattern="^\\+?\\d{1,4}?[-.\\s]?\\(?\\d{1,3}?\\)?[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,4}[-.\\s]?\\d{1,9}$"
+    phone_pattern=r'(?:(?:\+?\d{1,4}[ \-]?)?(?:\(\d{1,}\)[ \-]?)?[\d\- \.]{7,})'
     record_keyword_freq(text,phone_pattern)
     from re import sub
     from platform import system as checksys
